@@ -1,1 +1,5 @@
 a
+from google.colab import drive
+drive.mount('/content/drive')
+
+recommended_model.save("/content/drive/MyDrive/my_model.keras")
